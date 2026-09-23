@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background: #131921;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-logo .logo {
+    width: 120px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.panel-deals a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.panel {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222f3d;
+    padding: 10px;
+}
+
+.panel-all {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.panel-ops p {
+    display: inline-block;
+    margin-left: 25px; 
+   align-items: center;
+   justify-content:  space-evenly;
+}
+
+
+.panel-ops p a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-input {
+    border: none;
+    padding: 5px;
+    outline: none;
+    width: 200px;
+}
+
+.search-icon {
+    padding: 5px;
+    
+    cursor: pointer;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 187, 0);
+    font-size: 1.2rem;
+}
+
+/* Login Form Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.login-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    border: none;
+    background: none;
+    flex: 1;
+    padding: 5px;
+    outline: none;
+}
+
+.input-group i {
+    margin-right: 10px;
+}
+
+/* .remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+} */
+
+/* .forgot-password {
+    color: #00008B;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+} */
+
+.login-btn {
+    background: #c5bccb;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Email Icon Inside Input Box */
+.email-group {
+    display: flex;
+    align-items: center;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.email-group i {
+    margin-right: 10px;
+}
+
+.email-group input {
+    border: none;
+    background: none;
+    flex: 1;
+    padding: 5px;
+    outline: none;
+}
+
+/* Footer Styles */
+footer {
+    background: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.foot-panel1 {
+    background: #37475a;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.foot-panel2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.foot-panel2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    text-align: left;
+}
+
+.foot-panel2 p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foot-panel2 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.foot-panel3 {
+    padding: 10px 0;
+}
+
+.foot-panel4 {
+    font-size: 12px;
+}
+
+.pages a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.copyright {
+    margin-top: 5px;
+}

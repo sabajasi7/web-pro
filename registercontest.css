@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.border{
+    color: white;
+}
+
+/* Content Wrapper */
+.content {
+    flex: 1; /* Pushes the footer to the bottom */
+}
+header {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+}
+
+.nav-logo .logo {
+    width: 114px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.panel-deals {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.panel-deals a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222f3d;
+    padding: 10px;
+}
+
+.panel-all {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.panel-ops {
+    display: flex;
+    gap: 25px;
+}
+
+.panel-ops p {
+    margin: 0;
+}
+
+.panel-ops p a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.search-input {
+    border: none;
+    padding: 5px;
+    outline: none;
+    flex-grow: 1;
+}
+
+.search-icon {
+    padding: 5px;
+    cursor: pointer;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 187, 0);
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+/* Main Content */
+.parent{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+.aggreement-container {
+    display: flex;
+    /* margin: 10px ; */
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+
+.txtarea {
+    width: 60vw;
+    height: 25vh;
+    font-size: 16px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.check-section {
+    text-align: center;
+    padding: 15px;
+}
+
+.chk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.register {
+    color: white;
+    background-color: #726a6a;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.panel-ops p:hover, .panel-ops p:focus {
+    border: 2px solid white; /* White border like Amazon */
+    border-radius: 3px;
+}
+.border {
+    border: 2px solid transparent; /* Keeps layout stable */
+    padding: 5px;
+}
+.border:hover, .border:focus {
+    border: 2px solid white; /* White border on hover */
+    border-radius: 3px;
+}
+.register:hover {
+    background-color: #333;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* .result {
+    color: red;
+} */
+
+/* Responsive Design */
+/* @media (max-width: 800px) {
+    .parent {
+        width: 100%;
+        padding: 10px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+} */
+
+/* Footer Styles */
+footer {
+    background: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 10px;
+    width: 100%;
+}
+.foot-panel1 {
+    background: #37475a;
+    padding: 15px 0;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%; /* Fixing width issue */
+}
+
+.foot-panel2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #232F3E;
+    width: 95.9%; /* Ensuring full width */
+}
+
+
+.foot-panel2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    text-align: left;
+}
+
+.foot-panel2 p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foot-panel2 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+   
+}
+
+.foot-panel3 {
+    padding: 1px 0;
+    height: 100px;
+    background-color:  #131A22;
+} 
+
+.foot-panel4 {
+    font-size: 12px;
+    background-size: contain;
+    background-color: #131A22;
+    width: 100%; /* Ensuring full width */
+}
+
+.pages a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    width: 100%;
+}
+
+.copyright {
+    margin-top: 5px;
+    width: 100%;
+}

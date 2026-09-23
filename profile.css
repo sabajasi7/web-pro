@@ -1,0 +1,266 @@
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+     flex-direction: column; 
+}
+
+.navbar {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-logo .logo {
+    width: 114px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.panel-deals a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.panel {
+    height: 40px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222f3d;
+    padding: 10px;
+}
+
+.panel-all {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.panel-ops p {
+    display: inline-block;
+    margin-left:25px; 
+   align-items: center;
+   justify-content:  space-evenly; 
+}
+
+
+.panel-ops p a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-input {
+    border: none;
+    padding: 5px;
+    outline: none;
+    width: 200px;
+}
+
+.search-icon {
+    padding: 5px;
+    
+    cursor: pointer;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 187, 0);
+    font-size: 1.2rem;
+}
+
+/* Login Form Styles */
+.profile-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    flex: 1;
+    margin:250px 0
+}
+
+/* Profile Info */
+.profile-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.profile-info h2 {
+    color: #333;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+}
+
+.username {
+    color: red;
+    font-weight: bold;
+}
+
+.settings-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.email {
+    color: green;
+}
+
+.online-status {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+/* Profile Picture */
+.profile-picture {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    position: relative;
+}
+
+.profile-picture label {
+    display: block;
+    cursor: pointer;
+}
+
+.profile-picture i {
+    font-size: 100px; /* Increased icon size */
+    color: #555;
+    transition: color 0.3s;
+}
+
+.profile-picture i:hover {
+    color: #007bff;
+}
+
+.profile-picture input {
+    display: none; /* Hide file input */
+}
+
+.profile-picture p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    /* position: absolute;
+        bottom: 0;
+        left: 0; */
+}
+
+.foot-panel1 {
+    margin-bottom: 100px;
+   
+    background: #37475a;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.foot-panel2 {
+    display: flex;
+    background-color: #232F3E;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.foot-panel2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    text-align: left;
+}
+
+.foot-panel2 p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foot-panel2 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.foot-panel3 {
+    padding: 1px 0;
+    height: 100px;
+    background-color:  #131A22;
+} 
+.foot-panel4 {
+    font-size: 12px;
+    background-size: contain;
+    background-color: #131A22;
+    width: 100%; /* Ensuring full width */
+}
+.pages a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    width: 100%;
+}
+
+.copyright {
+    margin-top: 5px;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 1000px) {
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-info, .profile-picture {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+ 
